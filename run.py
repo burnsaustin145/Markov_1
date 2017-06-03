@@ -13,6 +13,7 @@ with open('nounlist.txt', 'r') as noun:
 with open('adjectives1.txt', 'r') as adj:
     adj_bank = adj.read()
 
+##user must enter their own text file here
 with open('/Users/macbook/PycharmProjects/markov_1/txt_data/4-24: goals copy.txt') as test_file:
     read_file = test_file.read()
 
@@ -28,7 +29,7 @@ def adder(string_tobe_strung):
 
     return mf_string
 
-
+##prints at each function the text goes through
 str_text = fetch.strdir_2(read_file)
 print("str_text")
 print(str_text)
